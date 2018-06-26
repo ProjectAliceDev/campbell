@@ -7,3 +7,16 @@ html, body, p, div {
 h1, h2, h3, h4, h5, h6, a, ul, li {
 	font-family: 'Raleway', sans-serif;
 }
+
+.shadow {
+	text-shadow: 4px 4px 8px #333333; 
+}
+
+.angel-dark {
+	background-color: #000000;
+	color: #baa062;
+}
+
+.angel-dark-muted {
+	color: #94804e;
+}
