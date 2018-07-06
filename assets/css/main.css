@@ -20,3 +20,7 @@ h1, h2, h3, h4, h5, h6, a, ul, li {
 .angel-dark-muted {
 	color: #94804e;
 }
+
+.small {
+	font-size: 10pt;
+}

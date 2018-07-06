@@ -1,9 +1,15 @@
 {
     "release":
     {
+        "version": "0.1.1",
+        "state": "Demo",
+        "can_download": "True"
+    },
+
+    "beta": {
         "version": "0.1.2",
-        "state": "Demo Beta",
-        "link": "https://github.com/TheAngelReturns/the-angel-returns/releases/tag/0.1.2beta1"
+        "build": "1",
+        "can_download": "True"
     },
 
     "aliceos":
