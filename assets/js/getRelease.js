@@ -39,26 +39,3 @@ function getRelease()
         }
     });
 }
-
-function getAliceRelease()
-{
-    $.getJSON("release.json", {}, function( data ){
-        var aliceosState = data.aliceos.state;
-        var aliceosVersion = data.aliceos.version;
-        var aliceosLink = data.aliceos.link;
-
-        try {
-            var adl = document.getElementById('aliceos-dl-button');
-            adl.innerHTML = "Download " + aliceosState + " (" + aliceosVersion + ")";
-            if (aliceosLink == "None") {
-                $('#aliceos-dl-button').addClass('is--disabled');
-                $('#aliceos-dl-button').attr('aria-disabled', true);
-            } else {
-                $('#aliceis-dl-button').attr('href', aliceosLink);
-            }
-            
-        } catch (error) {
-            console.error("Couldn't get data")
-        }
-    })
-}
