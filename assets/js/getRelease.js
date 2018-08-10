@@ -27,11 +27,12 @@ function getRelease()
 
         try {
             var beta = document.getElementById('dl-button-beta');
-            beta.innerHTML = "Download " + betaVersion + " Beta " + betaBuild;
+            beta.innerHTML = "Download Latest Nightly (<code>" + betaBuild + "</code>)";
             if (betaDl == "False") {
                 $('#dl-button-beta').hide();
             } else {
-                $('#dl-button-beta').attr('href', baseURL + betaVersion + "beta" + betaBuild);
+                // https://github.com/TheAngelReturns/the-angel-returns/releases/tag/0.2.2-nightly_git-9eaa1fa
+                $('#dl-button-beta').attr('href', baseURL + betaVersion + "-nightly_git-" + betaBuild);
             }
             
         } catch (error) {

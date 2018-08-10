@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-1.7.1.min.css" />
+        <link rel="stylesheet" href="https://aliceos.app/assets/css/main.css" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
         <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
@@ -42,7 +42,7 @@
             </nav>
         </header>
     <body>
-        <section class="p-strip--image is-dark" style="background-image:url('./assets/img/studio-4.jpg')">
+        <section class="p-strip--image is-dark is-shallow homepage" style="background-image:url('./assets/img/hl3.png');padding-bottom:0rem;">
             <div class="row">
                 <div class="col-12">
                 <h2 class="shadow">The Angel is returning</h2>
@@ -51,12 +51,17 @@
             <div class="row">
                 <div class="col-7">
                 <p class="shadow">It's spring break! Join the Literature Club girls in an exciting one-week adventure as they visit Angelhaus Productions, the successor to Joey Drew Studios! Solve fun minipuzzles and have a good time with the girls. Of course, don't forget about the Angel! You wouldn't want her to <code>[Just Alice.]</code></p>
-                <p><a class="p-button--positive" id="dl-button"></a> <a class="p-button--negative" id="dl-button-beta"></a> </p>
+                <p><a class="p-button--positive" id="dl-button"></a> <a class="p-button--brand" id="dl-button-beta"></a> </p>
                 <p class = "small">
-                    Note: Beta builds are not stable and may have features that change in the final stable release.
+                    <div class="p-notification--caution">
+                    <p class="p-notification__response">
+                        <span class="p-notification__status">Careful:</span>Nightly builds are often unstable and may have several bugs. Features and experiments in nightly builds may differ from the final version of the mod.
+                    </p>
+                </div>
                 </p>
                 </div>
                 <div class="col-5">
+                    <img src = "assets/img/alice.png" width = 120% />
                 </div>
             </div>
         </section>
@@ -118,33 +123,35 @@
                 <div class = "row">
                         <h3>Hear what others are saying</h3>
                         <div class = "row">
-                            <div class = "col-4">
+                            <div class = "u-equal-height">
+                                <div class = "col-4">
                                     <div class="p-card">
-                                            <h3 class="p-card__title"><a href="https://twitter.com/LaurenSynger">Lauren Synger</a></h3>
-                                            <p class="p-card__content">
-                                                   <p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/BATIM?src=hash&amp;ref_src=twsrc%5Etfw">#BATIM</a> fans check out this awesome demo and experience the Angel wreaking havoc anime style! ❤️😇😈<a href="https://t.co/31nUlHVFLU">https://t.co/31nUlHVFLU</a></p>
-                                            </p>
-                                          </div>                                 
-                            </div>
-                            <div class = "col-4">
-                                <div class="p-card">
-                                    <h3 class="p-card__title">
-                                        <a href = "https://www.reddit.com/user/somerandomname5">somerandomname5</a>
-                                    </h3>
-                                    <p class="p-card__content">
-                                        Finished the demo. Very high quality mod you have here! I look forward to the full release. &mdash; 
-                                    </p>
+                                        <h3 class="p-card__title"><a href="https://twitter.com/LaurenSynger">Lauren Synger</a></h3>
+                                        <p class="p-card__content">
+                                        <p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/BATIM?src=hash&amp;ref_src=twsrc%5Etfw">#BATIM</a> fans check out this awesome demo and experience the Angel wreaking havoc anime style! ❤️😇😈<a href="https://t.co/31nUlHVFLU">https://t.co/31nUlHVFLU</a></p>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class = "col-4">
+                                <div class = "col-4">
                                     <div class="p-card">
-                                            <h3 class="p-card__title">
-                                                <a href = "https://www.reddit.com/user/Frostby">Frostby</a>
-                                            </h3>
-                                            <p class="p-card__content">
-                                                    Wow, nice mod you got here friend. I just finished it right now with the 0.1.1 update and it's very good. Can't wait for the full release!
-                                            </p>
-                                        </div>
+                                        <h3 class="p-card__title">
+                                            <a href = "https://www.reddit.com/user/somerandomname5">somerandomname5</a>
+                                        </h3>
+                                        <p class="p-card__content">
+                                            Finished the demo. Very high quality mod you have here! I look forward to the full release. &mdash;
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class = "col-4">
+                                    <div class="p-card">
+                                        <h3 class="p-card__title">
+                                            <a href = "https://www.reddit.com/user/Frostby">Frostby</a>
+                                        </h3>
+                                        <p class="p-card__content">
+                                            Wow, nice mod you got here friend. I just finished it right now with the 0.1.1 update and it's very good. Can't wait for the full release!
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
