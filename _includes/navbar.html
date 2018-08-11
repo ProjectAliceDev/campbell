@@ -1,0 +1,52 @@
+<header id="navigation" class="p-navigation">
+    <div class="p-navigation__banner">
+        <div class="p-navigation__logo">
+            <a class="p-navigation__link" href="#">
+                <img class="p-navigation__image" src="assets/img/logomark.svg" alt="">
+            </a>
+        </div>
+        <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+        <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
+    </div>
+    <nav class="p-navigation__nav" role="menubar">
+              <span class="u-off-screen">
+                <a href="#main-content">Jump to main content</a>
+              </span>
+        <ul class="p-navigation__links" role="menu">
+            <li class="p-navigation__link {% if page.url == '/' %} is-selected{% endif %}" role="menuitem">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="p-navigation__link {% if page.url == '/about.html' %} is-selected{% endif %}" role="menuitem">
+                <a href="about.html">About</a>
+            </li>
+            <li class="p-navigation__link {% if page.url == '/policies.html' %} is-selected{% endif %}" role="menuitem">
+                <a href="policies.html">Policies</a>
+            </li>
+            <li class="p-navigation__link" role="menuitem">
+                <a href="https://aliceos.app">AliceOS</a>
+            </li>
+        </ul>
+        <ul class="p-navigation__links u-align--right" role="menu">
+            <li class="p-navigation__link u-align--right" role="menuitem">
+                <a href="https://github.com/TheAngelReturns">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="p-navigation__link" role="menuitem">
+                <a href="https://reddit.com/r/TheAngelReturns">
+                    <i class="fab fa-reddit"></i>
+                </a>
+            </li>
+            <li class="p-navigation__link u-align--right" role="menuitem">
+                <a href="https://twitter.com/JustAliceProj">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="p-navigation__link" role="menuitem">
+                <a href="https://aliceos.app/studio">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
