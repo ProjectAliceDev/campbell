@@ -19,3 +19,9 @@
 	padding-bottom: 0rem;
 	padding-top: 2rem;
 }
+
+/* Fix to remove extra padding needed for AliceOS */
+.p-navigation__logo {
+	align-items: center;
+	padding-right: 0px;
+}
