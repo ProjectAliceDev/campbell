@@ -32,7 +32,7 @@ function getRelease()
                 $('#dl-button-beta').hide();
             } else {
                 // https://github.com/TheAngelReturns/the-angel-returns/releases/tag/0.2.2-nightly_git-9eaa1fa
-                $('#dl-button-beta').attr('href', baseURL + betaVersion + "-nightly_git-" + betaBuild);
+                $('#dl-button-beta').attr('href', baseURL +  betaBuild);
             }
             
         } catch (error) {
