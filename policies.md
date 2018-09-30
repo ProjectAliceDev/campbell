@@ -16,4 +16,4 @@ We strive to follow both policies to the best of our abilities so that we create
 
 - **File a guideline violation issue on GitHub.** We will mark it as a guideline violation and work on resolving the issue immediately. [File a violation issue &rsaquo;](https://github.com/TheAngelReturns/the-angel-returns/issues/new)
 - **Reach a Director or Diplomat in The Studio** Message the @Directors or @Diplomats in The Studio (our Discord server), and we will investigate the matter.
-- **Send an email to us.** Send us an email at [theangelreturns@aliceos.app](mailto:theangelreturns@aliceos.app) and we'll look into the violation and fix it as soon as possible.
+- **Send an email to us.** Send us an email at [legal@aliceos.app](mailto:legal@aliceos.app) and we'll look into the violation and fix it as soon as possible.
