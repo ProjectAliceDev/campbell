@@ -9,7 +9,7 @@ function getRelease()
         var betaBuild = data.beta.build;
         var betaDl = data.beta.can_download;
 
-        var baseURL = "https://github.com/TheAngelReturns/the-angel-returns/releases/tag/";
+        var baseURL = "https://github.com/ProjectAliceDev/the-angel-returns/releases/tag/";
 
         try {
             var dl = document.getElementById('dl-button');
