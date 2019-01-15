@@ -1,0 +1,27 @@
+.shadow {
+	text-shadow: 4px 4px 8px #333333; 
+}
+
+.angel-dark {
+	background-color: #000000;
+	color: #baa062;
+}
+
+.angel-dark-muted {
+	color: #94804e;
+}
+
+.small {
+	font-size: 10pt;
+}
+
+.homepage {
+	padding-bottom: 0rem;
+	padding-top: 2rem;
+}
+
+/* Fix to remove extra padding needed for AliceOS */
+.p-navigation__logo {
+	align-items: center;
+	padding-right: 0px;
+}

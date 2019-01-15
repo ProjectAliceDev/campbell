@@ -1,0 +1,14 @@
+{
+    "release":
+    {
+        "version": "0.1.1",
+        "state": "Demo",
+        "can_download": "True"
+    },
+
+    "beta": {
+        "version": "0.2.2",
+        "build": "1e068e1",
+        "can_download": "True"
+    }
+}
