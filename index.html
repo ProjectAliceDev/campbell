@@ -3,6 +3,15 @@ title: Home
 layout: homepage
 ---
 <section class="p-strip--image is-dark is-shallow homepage" style="background-image:url('./assets/img/hl3.png');padding-bottom:0rem; height: 75vh">
+    <div class = "row">
+        <div id = "announcement" class="p-notification animated slideInDown">
+            <p class="p-notification__response">
+                    We're testing a new story idea for <i>The Angel Returns</i> and want to hear your feedback!
+                    <a href = "/ralsei.html">Learn more</a>
+            </p>
+            <button class="p-icon--close" aria-label="Close notification" onclick="closeNotification('announcement')">Close</button>
+        </div>
+    </div>
     <div class="row">
         <div class="col-12">
         <h2 class="shadow">The Angel is returning</h2>
@@ -21,7 +30,31 @@ layout: homepage
         </p>
         </div>
         <div class="col-5">
-            <img src = "assets/img/hero-fg.png" width = 120% />
+            <img class = "animated fadeIn" src = "assets/img/hero-fg.png" width = 120% />
         </div>
     </div>
 </section>
+
+<script>
+    // Thanks Animate.css authors!
+    function animateCss(element, animationName, callback) {
+        element.classList.add('animated', animationName)
+
+        function handleAnimationEnd() {
+            element.classList.remove('animated', animationName)
+            element.removeEventListener('animationend', handleAnimationEnd)
+
+            if (typeof callback === 'function') callback()
+        }
+
+        element.addEventListener('animationend', handleAnimationEnd)
+    }
+
+    function closeNotification(which) {
+        var notifElement = document.getElementById(which);
+        notifElement.classList.remove('slideInDown')
+        animateCss(notifElement, 'fadeOut', function(){
+            notifElement.classList.add('notification_hidden')
+        })
+    }
+</script>

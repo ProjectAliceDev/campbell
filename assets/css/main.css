@@ -20,8 +20,18 @@
 	padding-top: 2rem;
 }
 
+.notification_hidden {
+	display: none;
+}
+
 /* Fix to remove extra padding needed for AliceOS */
 .p-navigation__logo {
 	align-items: center;
 	padding-right: 0px;
+}
+
+.ralsei-header {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
